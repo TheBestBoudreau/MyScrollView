@@ -11,6 +11,8 @@
 @interface MyScrollView : UIView
 
 -(void)viewPanned:(UIPanGestureRecognizer *)sender;
+@property CGSize contentSize;
+@property UIPanGestureRecognizer *pan;
 
 
 @end
